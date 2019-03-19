@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheTrunk/mycryptonight.git"
+    "url": "git+https://github.com/zelcash/mycryptonight.git"
   },
   "scripts": {
     "format": "find . -name '*.js*' | xargs prettier --write --config ./.prettierrc --config-precedence file-override",
@@ -34,9 +34,9 @@
   "author": "MyMonero",
   "license": "See LICENSE.TXT. Copyright (c) 2014-2018, MyMonero.com. All rights reserved.",
   "bugs": {
-    "url": "https://github.com/TheTrunk/mycryptonight/issues"
+    "url": "https://github.com/zelcash/mycryptonight/issues"
   },
-  "homepage": "https://github.com/TheTrunk/mycryptonight#readme",
+  "homepage": "https://github.com/zelcash/mycryptonight#readme",
   "dependencies": {
     "async": "^2.6.0",
     "axios": "^0.18.0"
