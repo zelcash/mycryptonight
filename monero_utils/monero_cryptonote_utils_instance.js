@@ -33,8 +33,25 @@ const xcash_config = require("./xcash_config");
 const cryptonote_utils = require("../cryptonote_utils/cryptonote_utils").cnUtil;
 const monero_cryptonote_utils_instance = cryptonote_utils(monero_config);
 const xcash_cryptonote_utils_instance = cryptonote_utils(xcash_config);
+
+function moneroUtils(coin) {
+  let instance;
+  switch (coin) {
+    case 'monero':
+      instance = monero_cryptonote_utils_instance;
+      break;
+    case 'xcash':
+      instance = xcash_cryptonote_utils_instance;
+      break;
+    default:
+      instance = monero_cryptonote_utils_instance;
+      break;
+  }
+  return instance;
+}
 //
 module.exports = {
   monero_cryptonote_utils_instance,
-  xcash_cryptonote_utils_instance
+  xcash_cryptonote_utils_instance,
+  moneroUtils
 }
