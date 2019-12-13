@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/zelcash/mycryptonight#readme",
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^3.1.0",
     "axios": "^0.18.0"
   },
   "devDependencies": {
