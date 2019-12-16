@@ -39,7 +39,7 @@
   "homepage": "https://github.com/zelcash/mycryptonight#readme",
   "dependencies": {
     "async": "^2.6.0",
-    "axios": "^0.18.0"
+    "axios": "^0.18.1"
   },
   "devDependencies": {
     "jest": "^23.1.0"
