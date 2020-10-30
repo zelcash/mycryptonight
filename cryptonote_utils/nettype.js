@@ -69,7 +69,7 @@ function cryptonoteBase58PrefixForStandardAddressOn(nettype) {
 		return __STAGENET_CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX;
 	} else if (nettype == network_type.XCASH_MAINNET) {
 		return __XCASH_MAINNET_CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX;
-	} else if (nettype == network_type.BCD_MAINNET) {
+	} else if (nettype == network_type.BELDEX_MAINNET) {
 		return __BELDEX_MAINNET_CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX;
 	}
 	throw "Illegal nettype";
